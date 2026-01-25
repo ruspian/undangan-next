@@ -264,7 +264,7 @@ export default function MainContent() {
                   </motion.p>
                 </div>
 
-                <h2 className="text-5xl md:text-9xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
+                <h2 className="text-5xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
                   <motion.span
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
@@ -324,7 +324,7 @@ export default function MainContent() {
                   </motion.p>
                 </div>
 
-                <h2 className="text-5xl md:text-9xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
+                <h2 className="text-5xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
                   <motion.span
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
@@ -386,7 +386,7 @@ export default function MainContent() {
                   perjalanan abadi.&quot;
                 </p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+              <div className="grid grid-cols-1  gap-8 md:gap-12 items-start">
                 <EventDetail
                   title="Akad Nikah"
                   day="Minggu"
@@ -459,7 +459,7 @@ export default function MainContent() {
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+              <div className="grid grid-cols-1   gap-4 text-center">
                 {[
                   "Keluarga Besar Hasan & Lasena",
                   "Keluarga Besar Abusali & Karim",
@@ -473,7 +473,7 @@ export default function MainContent() {
                     whileHover={{ scale: 1.1, color: "#8BA88E" }}
                     className="group cursor-default"
                   >
-                    <p className="text-sm font-light italic tracking-wide text-[#4A5D4E]/60 group-hover:opacity-100 transition-all">
+                    <p className="text-sm text-center font-light italic tracking-wide text-[#4A5D4E]/60 group-hover:opacity-100 transition-all">
                       {item}
                     </p>
                   </motion.div>
@@ -501,17 +501,18 @@ export default function MainContent() {
           >
             <motion.p
               variants={itemVariants}
-              className="text-[11px] uppercase tracking-[1.2em] text-[#8BA88E] font-medium opacity-60"
+              className="text-[11px] uppercase tracking-[1.2em] text-[#8BA88E] font-medium opacity-60 text-center"
             >
-              Kami yang berbahagia,
+              Kami yang berbahagia
             </motion.p>
 
             <div className="space-y-4">
               <motion.h2
                 variants={itemVariants}
-                className="text-7xl md:text-9xl font-serif italic text-[#4A5D4E] leading-tight"
+                className="text-5xl md:text-6xl font-serif italic text-[#4A5D4E] leading-tight"
               >
-                Yayan <br className="md:hidden" />
+                Yayan
+                <br className="md:hidden" />
                 <span className="font-signature text-5xl md:text-7xl text-[#8BA88E] not-italic mx-4">
                   &
                 </span>
