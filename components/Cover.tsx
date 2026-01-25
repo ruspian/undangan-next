@@ -27,7 +27,11 @@ export default function Cover() {
   });
 
   const searchParams = useSearchParams();
-  const guestName = searchParams.get("to") || "Tamu Undangan";
+  const rawGuestName = searchParams.get("to") || "Tamu Undangan";
+
+  const guestName = rawGuestName
+    .replace(/-/g, " ") // Mengganti semua '-' dengan spasi
+    .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitalize tiap awal kata
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
