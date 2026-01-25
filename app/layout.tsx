@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Great_Vibes, Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import MusicPlayer from "@/components/MusicPlayer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const playfair = Playfair_Display({
   subsets: ["latin"],
+  variable: "--font-serif",
+  style: "italic",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const signature = Great_Vibes({
   subsets: ["latin"],
+  weight: "400",
+  variable: "--font-signature",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${playfair.variable} ${inter.variable} ${signature.variable} antialiased`}
       >
         {children}
+        <MusicPlayer />
       </body>
     </html>
   );
