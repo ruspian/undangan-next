@@ -162,29 +162,29 @@ export default function Cover() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <p className="uppercase text-[10px] tracking-[0.6em] text-[#8BA88E] mb-8 font-light">
+                <p className="uppercase text-[10px] tracking-[0.6em] text-[#8BA88E] mb-2 font-light">
                   The Wedding of
                 </p>
 
-                <div className="mb-12">
-                  <h1 className="text-6xl md:text-8xl font-serif italic leading-tight mb-2">
+                <div className="mb-2">
+                  <h1 className="text-5xl md:text-6xl font-serif italic leading-tight mb-2">
                     Yayan
                   </h1>
                   <span className="font-signature text-6xl md:text-8xl block text-[#8BA88E] my-2">
                     &
                   </span>
-                  <h1 className="text-6xl md:text-8xl font-serif italic leading-tight">
+                  <h1 className="text-5xl md:text-6xl font-serif italic leading-tight">
                     Ilan
                   </h1>
                 </div>
 
-                <div className="h-px w-24 bg-[#4A5D4E]/20 mx-auto mb-12" />
+                <div className="h-px w-24 bg-[#4A5D4E]/20 mx-auto mb-8" />
 
-                <div className="mb-14">
+                <div className="mb-4">
                   <p className="text-[11px] uppercase tracking-[0.4em] mb-3 opacity-60">
                     Dear,
                   </p>
-                  <h2 className="text-3xl md:text-4xl font-serif tracking-widest text-[#4A5D4E]">
+                  <h2 className="text-2xl md:text-4xl font-serif tracking-widest text-[#4A5D4E]">
                     {guestName}
                   </h2>
                 </div>
@@ -209,7 +209,7 @@ export default function Cover() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
-              className="flex justify-center gap-4 md:gap-8 mb-12 mt-20"
+              className="flex justify-center gap-4 md:gap-8 my-8"
             >
               <CountdownItem value={timeLeft.days} label="Days" />
               <CountdownItem value={timeLeft.hours} label="Hours" />
