@@ -9,6 +9,7 @@ import {
 import { useRef, useEffect, useState } from "react";
 import { FloralBottomRight, FloralTopLeft } from "./FloralOrnament";
 import EventDetail from "./EventDetail";
+import GiftCard from "./GiftCart";
 
 interface Leaf {
   id: number;
@@ -264,7 +265,7 @@ export default function MainContent() {
                   </motion.p>
                 </div>
 
-                <h2 className="text-5xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
+                <h2 className="text-4xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
                   <motion.span
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
@@ -324,7 +325,7 @@ export default function MainContent() {
                   </motion.p>
                 </div>
 
-                <h2 className="text-5xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
+                <h2 className="text-4xl md:text-6xl font-serif italic mb-8 leading-[0.8] overflow-hidden">
                   <motion.span
                     initial={{ y: "100%" }}
                     whileInView={{ y: 0 }}
@@ -339,7 +340,7 @@ export default function MainContent() {
                     transition={{ delay: 0.5, duration: 1 }}
                     className="block text-[#8BA88E] mt-2 mb-4"
                   >
-                    S. Hasan, S.Pd., Gr
+                    Suleman Hasan, S.Pd., Gr
                   </motion.span>
                 </h2>
 
@@ -406,6 +407,48 @@ export default function MainContent() {
                 />
               </div>
             </div>
+          </motion.div>
+        </section>
+
+        <section className="py-40 px-6 relative overflow-hidden">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            className="max-w-4xl mx-auto text-center relative"
+          >
+            {/* Header Section */}
+            <motion.div variants={itemVariants} className="mb-20 space-y-6">
+              <span className="text-[10px] uppercase tracking-[0.8em] text-[#8BA88E]">
+                Wedding Gift
+              </span>
+              <h2 className="text-5xl md:text-7xl font-serif italic text-[#4A5D4E]">
+                Tanda Kasih
+              </h2>
+              <p className="text-sm font-light opacity-60 italic max-w-lg mx-auto leading-relaxed">
+                Doa restu Anda adalah kado terindah. Namun, bagi Anda yang ingin
+                memberikan tanda kasih, dapat melalui nomor rekening di bawah
+                ini:
+              </p>
+            </motion.div>
+
+            {/* GRID KARTU REKENING */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
+              <GiftCard
+                bankName="BANK BSG"
+                accNumber="01002060153684"
+                accHolder="YAYAN PILOBU"
+              />
+
+              <GiftCard
+                bankName="BANK MANDIRI"
+                accNumber="04002090012815"
+                accHolder="SRILANINGSIH S. HASAN"
+              />
+            </div>
+
+            {/* Aksen Background Glow */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[#8BA88E]/5 blur-[120px] -z-10 rounded-full" />
           </motion.div>
         </section>
 
