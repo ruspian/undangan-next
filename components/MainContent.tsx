@@ -393,16 +393,16 @@ export default function MainContent() {
                   date="08 Februari 2026"
                   time="10:00 WITA "
                   loc="Kediaman Mempelai Wanita, Dusun Nangka Desa Lembah Permai, Kec. Wanggarasi, Kab. Pohuwato"
-                  linkMaps="https://maps.app.goo.gl/xxx" // Ganti dengan link asli maps lo
+                  linkMaps="https://maps.app.goo.gl/jSzEnet3E1HG1JuV9"
                 />
 
                 <EventDetail
                   title="Resepsi"
                   day="Minggu"
                   date="08 Februari 2026"
-                  time="11:00 WITA"
+                  time="19:00 WITA"
                   loc="Kediaman Mempelai Wanita, Dusun Nangka Desa Lembah Permai, Kec. Wanggarasi, Kab. Pohuwato"
-                  linkMaps="https://maps.app.goo.gl/xxx" // Ganti dengan link asli maps lo
+                  linkMaps="https://maps.app.goo.gl/jSzEnet3E1HG1JuV9"
                 />
               </div>
             </div>
@@ -461,6 +461,7 @@ export default function MainContent() {
 
               <div className="grid grid-cols-1   gap-4 text-center">
                 {[
+                  "Keluarga Besar Pilobu & Moha",
                   "Keluarga Besar Hasan & Lasena",
                   "Keluarga Besar Abusali & Karim",
                   "Keluarga Besar Puluhulawa",
