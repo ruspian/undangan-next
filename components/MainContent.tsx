@@ -441,7 +441,7 @@ export default function MainContent() {
               />
 
               <GiftCard
-                bankName="BANK MANDIRI"
+                bankName="BANK BSG"
                 accNumber="04002090012815"
                 accHolder="SRILANINGSIH S. HASAN"
               />
