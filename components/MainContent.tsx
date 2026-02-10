@@ -497,8 +497,6 @@ export default function MainContent() {
                 {[
                   "Keluarga Besar Pilobu & Moha",
                   "Keluarga Besar Hasan & Lasena",
-                  "Keluarga Besar Abusali & Karim",
-                  "Keluarga Besar Puluhulawa",
                 ].map((item, idx) => (
                   <motion.div
                     key={idx}
