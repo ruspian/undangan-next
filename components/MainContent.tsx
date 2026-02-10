@@ -392,9 +392,9 @@ export default function MainContent() {
                   title="Acara"
                   day="Sabtu"
                   date="14 Februari 2026"
-                  time="10:00 WITA "
-                  loc="Kediaman Mempelai Pria, Desa Motolohu Kec. Randangan"
-                  linkMaps="https://maps.app.goo.gl/jSzEnet3E1HG1JuV9"
+                  time="19:00 WITA "
+                  loc="Rumah Mempelai Pria Kompleks Depan SMPN 1 Randangan Desa Motolohu Kec. Randangan"
+                  linkMaps="https://maps.app.goo.gl/9oNHB6WrCdRc891VA"
                 />
               </div>
             </div>
