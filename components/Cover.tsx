@@ -36,7 +36,7 @@ export default function Cover() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    const targetDate = new Date("February 8, 2026 10:00:00").getTime();
+    const targetDate = new Date("February 14, 2026 10:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -167,7 +167,7 @@ export default function Cover() {
                 transition={{ duration: 1 }}
               >
                 <p className="uppercase text-[10px] tracking-[0.6em] text-[#8BA88E] mb-2 font-light">
-                  The Wedding of
+                  Unduh Mantu
                 </p>
 
                 <div className="mb-2">

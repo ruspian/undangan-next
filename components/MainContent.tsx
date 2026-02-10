@@ -132,7 +132,7 @@ export default function MainContent() {
               transition={{ duration: 2 }}
               className="text-[10px] uppercase mb-8"
             >
-              Wedding Of
+              Unduh Mantu
             </motion.p>
             <h1 className="text-7xl md:text-9xl font-serif italic leading-tight overflow-hidden">
               <motion.span
@@ -389,20 +389,11 @@ export default function MainContent() {
               </div>
               <div className="grid grid-cols-1  gap-8 md:gap-12 items-start">
                 <EventDetail
-                  title="Akad Nikah"
-                  day="Minggu"
-                  date="08 Februari 2026"
+                  title="Acara"
+                  day="Sabtu"
+                  date="14 Februari 2026"
                   time="10:00 WITA "
-                  loc="Kediaman Mempelai Wanita, Dusun Nangka Desa Lembah Permai, Kec. Wanggarasi, Kab. Pohuwato"
-                  linkMaps="https://maps.app.goo.gl/jSzEnet3E1HG1JuV9"
-                />
-
-                <EventDetail
-                  title="Resepsi"
-                  day="Minggu"
-                  date="08 Februari 2026"
-                  time="19:00 WITA"
-                  loc="Kediaman Mempelai Wanita, Dusun Nangka Desa Lembah Permai, Kec. Wanggarasi, Kab. Pohuwato"
+                  loc="Kediaman Mempelai Pria, Desa Motolohu Kec. Randangan"
                   linkMaps="https://maps.app.goo.gl/jSzEnet3E1HG1JuV9"
                 />
               </div>
@@ -420,7 +411,7 @@ export default function MainContent() {
             {/* Header Section */}
             <motion.div variants={itemVariants} className="mb-20 space-y-6">
               <span className="text-[10px] uppercase tracking-[0.8em] text-[#8BA88E]">
-                Wedding Gift
+                Gift
               </span>
               <h2 className="text-5xl md:text-7xl font-serif italic text-[#4A5D4E]">
                 Tanda Kasih
